@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500&family=Inter:wght@300;400;500;900&family=Montserrat&family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+::placeholder{
+    font-size: large;
+}
+.input>*{
+    margin: 8px;
+}
+.input{
+    width: 48%;
+    display: flex;
+    white-space: pre;
+    align-items: center;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+}
+nav>div>h5{
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.Login{
+    font-size: 20px;
+    color: #5D5870;
+}
+nav>button{
+    white-space: pre;
+    width: 120px;
+    height: 55px;
+}
+.input>input{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+}
+.hero{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.below-hero{
+    margin: auto;
+    overflow-x: scroll;
+    width: 83%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.container>img{
+    margin: 10px;
+}
+.sec3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 85%;
+}
+.sec-4{
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+    margin: auto;
+}
+.sec-4>div{
+    display: flex;
+    overflow-x: scroll;
+
+}
+.card1{
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 355px;
+    box-shadow: 0px 0px 2px grey;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+}
+.card1>img{
+    /* margin: auto; */
+    width: 170px;
+}
+.card1>div>button{
+    white-space: pre;
+    border: none;
+    font-weight: 900;
+    border-radius: 10px;
+    margin: 5px;
+    width: 70px;
+    height: 20px;
+    font-size: 9px;
+}
+.name{
+    font-size: large;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 5px;
+}
+.gm{
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.inbox{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inbox>div{
+    margin-left: 8px;
+    line-height: 16px;
+    font-size: small;
+}
+.btn{
+    background-color: white;
+    color: green;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+@media  screen and (max-width:500px) {
+    .hero>img{
+        width: 90%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+        width: 100%;
+        align-items: start;
+    }
+    .img1{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    nav>div{
+        margin-left: 20px;
+    }
+    .input{
+        width: 90%;
+    }
+    .Login{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    nav>button{
+        margin: 20px;
+    }
+    .below-hero{
+        margin: auto;
+        margin-top: 10px;
+        overflow-y: scroll;
+        width: 90%;
+    }
+    .container{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .sec-4{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .below-hero{
+        margin-bottom: 20px;
+    }
+    .sec-4>div{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        height: 400px;
+        width: 60%;
+        margin-top: 20px;
+    }
+    
+}

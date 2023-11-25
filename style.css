@@ -190,18 +190,20 @@ footer{
     }
     .sec-4{
         display: flex;
-        width: 100%;
+        width: 90%;
         align-items: center;
     }
     .below-hero{
         margin-bottom: 20px;
     }
     .sec-4>div{
+        
         display: flex;
+        align-items: center;
         flex-direction: column;
         overflow-y: scroll;
         height: 400px;
-        width: 75%;
+        width: 100%;
         margin-top: 20px;
     }
     
